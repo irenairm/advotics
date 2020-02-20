@@ -1,0 +1,173 @@
+/*Body */
+body{
+  background-color: rgb(247,247,247);
+}
+
+.title{
+  position: absolute;
+  top: 94px;
+  left: 96px;
+  width: 187px;
+  height: 50px;
+  margin-top: 0;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 40px;
+  font-style: 600;
+  letter-spacing: 0;
+  color: #707070C4;
+  opacity: 1;
+}
+/* Navbar */
+
+.navbar{
+  top: 0px;
+  left: 0px;
+  /* width: 1280px; */
+  height: 64px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 64px;
+}
+a{
+  text-decoration: none;
+}
+
+.logo-advotics{
+  position: absolute;
+  top: 17px;
+  left: 34px;
+  width: 129px;
+  height: 32px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+}
+
+.logo-advotics-small{
+  position:absolute;
+  top: 35px;
+  left: 236px;
+  width: 72px;
+  height: 18px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.text-navbar{
+  position:absolute;
+  margin-top:0;
+  top: 35px;
+  left: 171px;
+  width: 61px;
+  height:15px;
+  font-family: 'Open Sans';
+  font-size: 11px;
+  font-weight: 400px;
+  text-align: left;
+  letter-spacing: 0;
+  color: #5B5B5B;
+  opacity: 1;
+
+}
+.username{
+  position: absolute;
+  top: 16px;
+  left: 1093px;
+  width: 68px;
+  height: 19px;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-size:  14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #727272;
+  opacity: 1;
+}
+
+.company{
+  position: absolute;
+  top: 35px;
+  left: 1091px;
+  width: 80px;
+  height: 14px;
+  text-align: left;
+  font-family: 'Open Sans';
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: #727272;
+  opacity: 1;
+}
+
+.profile{
+  position: absolute;
+  top: 16px;
+  left: 1179px;
+  width: 32px;
+  height: 32px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.logout{
+  position: absolute;
+  left: 1233px;
+  top: 25px;
+  width: 15px;
+  height: 15px;
+  background: transparent  0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* Sidebar */
+.side-navbar{
+  position:fixed;
+  z-index: -1;
+  top: 64px;
+  left: 0px;
+  width: 72px;
+  height: 859px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 0.5px solid #D2D2D2;
+  opacity: 1;
+}
+
+.menu{
+  top: 88px;
+  left: 24px;
+  width: 24px;
+  height: 21px;
+  background: #C5C5C5 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.icon{
+  position:fixed;
+  top: 137px;
+  left: 23.5px;
+  width: 17px;
+  height: 17px;
+  border-radius: 2px;
+  background:white 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.rectangle{
+  position:fixed;
+  top: 136px;
+left: 20px;
+width: 24px;
+height: 21px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 3px;
+opacity: 1;
+}
+.icon-background{
+  position:fixed;
+  top: 123px;
+left: 0px;
+width: 72px;
+height: 48px;
+background: #D2D2D2 0% 0% no-repeat padding-box;
+opacity: 1;
+}
