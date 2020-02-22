@@ -21,7 +21,7 @@ body{
 
 /* Filter */
 .filter{
-  position:fixed;
+  position:absolute;
   top: 95px;
   left: 767px;
   width: 481px;
@@ -57,7 +57,8 @@ body{
   color: #8B8B8B;
   opacity: 1;
 }
-.period{
+
+#period{
   position: fixed;
   margin: 0;
   top: 108px;
@@ -79,8 +80,6 @@ body{
   left: 1217px;
   width: 15px;
   height: 12px;
-  /* transform: matrix(-1, 0, 0, -1, 0, 0); */
-  /* background: #FFFFFF 0% 0% no-repeat padding-box; */
   opacity: 1;
 }
 .arrow-down{
@@ -92,11 +91,22 @@ body{
   opacity: 1;
 }
 
+.range{
+  margin-top: 3rem;
+  left: 600px;
+}
+.period-title.range{
+  left: 640px;
+}
 .filter-date-picker{
-  position:fixed;
-  top: 140px;
-  left: 67px;
-  width: 581px;
+  position:absolute;
+  float: right;
+  margin-top: 0px;
+  /* transform: rotate(180deg); */
+  z-index: 1;
+  top: 3rem;
+  left: -200px;
+  width:42.6rem;
   height: 48px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 2px 3px #00000029;
@@ -106,12 +116,10 @@ body{
 }
 
 
-
-
-
 /* Insights */
 .market-insights{
-  position: fixed;
+  position: absolute;
+  z-index: 0;
   top: 174px;
   left: 96px;
   width: 1152px;
@@ -343,6 +351,7 @@ body{
 
 .sales-turnover-title{
   position:fixed;
+  margin-top: 1rem;
   top: 234px;
   left: 112px;
   width: 100px;
@@ -353,6 +362,7 @@ body{
 }
 .more-icon{
   position:fixed;
+  margin-top: 0.2rem;
   top: 250px;
   left: 340px;
   width: 16px;
@@ -361,6 +371,7 @@ body{
 
 .sales-turnover-sale{
   position:fixed;
+  margin-top: 1.4rem;
   top: 245px;
   left: 111px;
   /* width: 0px; */
@@ -373,6 +384,7 @@ body{
 
 .red-arrow-icon{
   position:fixed;
+  margin-top: 0.2rem;
   top: 305px;
   left: 108px;
   width: 12px;
@@ -381,6 +393,7 @@ body{
 }
 .sales-turnover-desc{
   position:fixed;
+  margin-top: 0.5rem;
   font-size:8px;
   font-family: 'Open Sans';
   color: rgb(157,157,157);
@@ -403,6 +416,7 @@ body{
 /* Average Purchase */
 .average-purchase{
   position:fixed;
+  margin-top: 0rem;
   top: 358px;
   left: 96px;
   width: 570px;
@@ -419,6 +433,7 @@ body{
   left: 630px;
 }
 .average-purchase-title{
+  margin-top: 1rem;
   position:fixed;
   top: 367px;
   left: 120px;
@@ -439,8 +454,8 @@ body{
   left: 400px;
   width: 110px;
   height: 20px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 2px 3px #0000000D;
+  /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+  /* box-shadow: 0px 2px 3px #0000000D; */
   border: 1px solid #D7DAE2;
   border-radius: 2px;
   opacity: 1;
@@ -458,6 +473,7 @@ body{
 /* Best Selling */
 .best-selling{
   position:fixed;
+  margin-top: 0rem;
   top: 358px;
   left: 682px;
   width: 275px;
@@ -471,6 +487,7 @@ body{
 
 .best-selling-title{
   position:fixed;
+  margin-top: 1rem;
   top: 360px;
   left: 698px;
   height: 25px;
@@ -508,6 +525,7 @@ body{
 
 .top-competitor-title{
   position:fixed;
+  margin-top: 1rem;
   top: 360px;
   left: 989px;
   height: 25px;
@@ -579,11 +597,13 @@ body{
   opacity: 1;
 }
 .product-price-top{
+  margin-top: 1rem;
   float:left;
   width: 64px;
 }
 
 .product-quantity-top{
+  margin-top: 1rem;
   float: right;
   width: 100px;
 }
@@ -658,11 +678,17 @@ body{
 
 }
 .product-price{
+  margin-top: 1rem;
   float:left;
   width: 64px;
 }
 
 .product-quantity{
+  margin-top: 1rem;
   float: right;
   width: 67px;
+}
+
+.button{
+
 }
