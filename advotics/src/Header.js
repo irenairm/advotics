@@ -12,8 +12,8 @@ class Header extends React.Component {
                 <Navbar.Brand href="/"><img class="logo-advotics" src={advotics} /> <span><p className="text-navbar">powered by</p></span> <img class="logo-advotics-small" src={advotics} /></Navbar.Brand>
                 <Navbar.Collapse id="basic-navbar-nav"> 
                     <Nav className="ml-auto">
-                        <Nav.Item><Nav.Link className="username" href="/">Username</Nav.Link></Nav.Item> 
-                        <Nav.Item><Nav.Link className="company" href="/about">Company Name</Nav.Link></Nav.Item>
+                        <Nav.Item className="username">Username</Nav.Item> 
+                        <Nav.Item className="company">Company Name</Nav.Item>
                         <Nav.Item><img src={profile} className="profile"/></Nav.Item>
                         <Nav.Item><img src={logout} className="logout"/></Nav.Item>
                     </Nav>

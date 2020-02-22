@@ -13,9 +13,166 @@ body{
   text-align: left;
   font-family: 'Source Sans Pro';
   font-size: 40px;
-  font-style: 600;
+  font-weight: 600;
   letter-spacing: 0;
   color: #707070C4;
+  opacity: 1;
+}
+
+/* Filter */
+.filter{
+  position:fixed;
+  top: 95px;
+  left: 767px;
+  width: 481px;
+  height: 48px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000029;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.calendar-icon{
+  position:fixed;
+  top: 108px;
+  left: 783px;
+  width: 22px;
+  height: 22px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.period-title{
+  position:fixed;
+  margin:0;
+  top: 108px;
+  left: 821px;
+  width: 49px;
+  height: 22px;
+  text-align: left;
+  font-family:'Open Sans';
+  font-size:16px;
+  font-weight:400;
+  letter-spacing: 0;
+  color: #8B8B8B;
+  opacity: 1;
+}
+.period{
+  position: fixed;
+  margin: 0;
+  top: 108px;
+  left: 894px;
+  width: 305px;
+  height: 22px;
+  text-align: left;
+  font-size: 16px;
+  font-weight:400;
+  font-family: 'Open Sans';
+  letter-spacing: 0;
+  color: #6A6A6A;
+  opacity: 1;
+}
+
+.arr-down{
+  position:fixed;
+  top: 194px;
+  left: 1217px;
+  width: 15px;
+  height: 12px;
+  /* transform: matrix(-1, 0, 0, -1, 0, 0); */
+  /* background: #FFFFFF 0% 0% no-repeat padding-box; */
+  opacity: 1;
+}
+.arrow-down{
+  position:fixed;
+  top: 114px;
+  left: 1215px;
+  width: 16px;
+  height: 10px;
+  opacity: 1;
+}
+
+.filter-date-picker{
+  position:fixed;
+  top: 140px;
+  left: 67px;
+  width: 581px;
+  height: 48px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #00000029;
+  border-radius: 2px;
+  opacity: 1;
+  
+}
+
+
+
+
+
+/* Insights */
+.market-insights{
+  position: fixed;
+  top: 174px;
+  left: 96px;
+  width: 1152px;
+  height: 48px;
+  background: #37B04C 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.market-insights-title{
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 82px;
+  left: 112px;
+  /* width: 158px; */
+  height: 25px;
+  text-align: left;
+  font-style: 'Source Sans Pro';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 13;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.help-icon{
+  position:fixed;
+  top: 188px;
+  left: 1073px;
+  width: 20px;
+  height: 20px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.help{
+  position:fixed;
+  top: 189px;
+  left: 1097px;
+  width: 110px;
+  height: 18px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: 300;
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.arrow-up{
+  position:fixed;
+  top: 194px;
+  left: 1217px;
+  width: 15px;
+  height: 12px;
+  transform: matrix(-1, 0, 0, -1, 0, 0);
+  /* background: #FFFFFF 0% 0% no-repeat padding-box; */
   opacity: 1;
 }
 /* Navbar */
@@ -29,9 +186,7 @@ body{
   box-shadow: 0px 3px 6px #00000029;
   height: 64px;
 }
-a{
-  text-decoration: none;
-}
+
 
 .logo-advotics{
   position: absolute;
@@ -55,7 +210,7 @@ a{
 }
 
 .text-navbar{
-  position:absolute;
+  position:fixed;
   margin-top:0;
   top: 35px;
   left: 171px;
@@ -71,7 +226,7 @@ a{
 
 }
 .username{
-  position: absolute;
+  position: fixed;
   top: 16px;
   left: 1093px;
   width: 68px;
@@ -86,7 +241,7 @@ a{
 }
 
 .company{
-  position: absolute;
+  position: fixed;
   top: 35px;
   left: 1091px;
   width: 80px;
@@ -155,19 +310,359 @@ a{
 .rectangle{
   position:fixed;
   top: 136px;
-left: 20px;
-width: 24px;
-height: 21px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border-radius: 3px;
-opacity: 1;
+  left: 20px;
+  width: 24px;
+  height: 21px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
 }
 .icon-background{
   position:fixed;
   top: 123px;
-left: 0px;
-width: 72px;
-height: 48px;
-background: #D2D2D2 0% 0% no-repeat padding-box;
-opacity: 1;
+  left: 0px;
+  width: 72px;
+  height: 48px;
+  background: #D2D2D2 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+/* Sales Turnover */
+.sales-turnover{
+  position:fixed;
+  top: 238px;
+  left: 96px;
+  width: 276px;
+  height: 104px;
+  background: transparent 0% 0% no-repeat padding-box;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(213,216,222);
+  opacity: 1;
+  
+}
+
+.sales-turnover-title{
+  position:fixed;
+  top: 234px;
+  left: 112px;
+  width: 100px;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  font-weight:400;
+  color: rgb(162,162,175);
+}
+.more-icon{
+  position:fixed;
+  top: 250px;
+  left: 340px;
+  width: 16px;
+  height: 16px;
+}
+
+.sales-turnover-sale{
+  position:fixed;
+  top: 245px;
+  left: 111px;
+  /* width: 0px; */
+  /* height: 24px; */
+  font-size: 26px;
+  font-family: 'Source Sans Pro';
+  font-weight:700;
+  color:rgb(77,79,92);
+}
+
+.red-arrow-icon{
+  position:fixed;
+  top: 305px;
+  left: 108px;
+  width: 12px;
+  height: 12px;
+  color:red;
+}
+.sales-turnover-desc{
+  position:fixed;
+  font-size:8px;
+  font-family: 'Open Sans';
+  color: rgb(157,157,157);
+  top: 300px;
+  left: 123px;
+}
+
+.sales-turnover-percentage{
+  color:red;
+  font-weight:600;
+}
+.sales-icon{
+  position:fixed;
+  top: 270px;
+  left: 285px;
+  width: 48px;
+  height: 48px;
+}
+
+/* Average Purchase */
+.average-purchase{
+  position:fixed;
+  top: 358px;
+  left: 96px;
+  width: 570px;
+  height: 424px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000000A;
+  border: 0.5px solid #CDCDCD;
+  border-radius: 2px;
+  opacity: 1;
+}
+.average{
+  position:fixed;
+  margin-top: 9rem;
+  left: 630px;
+}
+.average-purchase-title{
+  position:fixed;
+  top: 367px;
+  left: 120px;
+  /* width: 230px; */
+  height: 25px;
+  text-align: left;
+  font-size:20px;
+  font-weight:400;
+  font-family:'Source Sans Pro';
+  letter-spacing: 0;
+  color: #4D4F5C;
+  opacity: 1;
+}
+
+.select{
+  position:fixed;
+  margin-top: 1.5rem;
+  left: 400px;
+  width: 110px;
+  height: 20px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 3px #0000000D;
+  border: 1px solid #D7DAE2;
+  border-radius: 2px;
+  opacity: 1;
+  font-size: 12px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+}
+
+.arrow-down-dropdown{
+  left: 590px;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+/* Best Selling */
+.best-selling{
+  position:fixed;
+  top: 358px;
+  left: 682px;
+  width: 275px;
+  height: 424px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000000A;
+  border: 0.5px solid #CACED5;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.best-selling-title{
+  position:fixed;
+  top: 360px;
+  left: 698px;
+  height: 25px;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #4D4F5C;
+  opacity: 1;
+}
+
+.best{
+  position:fixed;
+  top: 385px;
+  left: 930px;
+  width: 16px;
+  height: 16px;
+}
+
+
+/* Top Competitor */
+.top-competitor{
+  position:fixed;
+  top: 358px;
+  left: 973px;
+  width: 275px;
+  height: 424px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000000A;
+  border: 0.5px solid #CACED5;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.top-competitor-title{
+  position:fixed;
+  top: 360px;
+  left: 989px;
+  height: 25px;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #4D4F5C;
+  opacity: 1;
+}
+
+.top{
+  position:fixed;
+  top: 385px;
+  left: 1220px;
+  width: 16px;
+  height: 16px;
+}
+
+/* Product */
+.product-label-top{
+  position:fixed;
+  margin-top: 3.5rem;
+  margin-left: 1rem;
+  width: 243px;
+  height: 80px;
+  background: #FFE7BD 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.prod-picture-top{
+  position:fixed;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  width: 80px;
+  height: 80px;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 4px 0px 0px 4px;
+  opacity: 1;
+}
+
+.product-name-top{
+  position: fixed;
+  margin-top: 0.5rem;
+  margin-left: 5.5rem;
+  width: 150px;
+  height: 25px;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #000000DE;
+  opacity: 1;
+}
+.prod-desc-top{
+  position:fixed;
+  margin-top: 2rem;
+  margin-left: 5.5rem;
+  text-align: left;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.25px;
+  color: #00000099;
+  opacity: 1;
+}
+.product-price-top{
+  float:left;
+  width: 64px;
+}
+
+.product-quantity-top{
+  float: right;
+  width: 100px;
+}
+
+/* Product list */
+.product-label{
+  position:absolute;
+  margin-top: 9rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  width: 243px;
+  height: 60px;
+  border: 0.5px solid #C5C5C59C;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.no2{
+  margin-top: 13.3rem;
+}
+
+.no3{
+  margin-top: 17.5rem;
+}
+
+.no4{
+  margin-top: 21.8rem;
+}
+.prod-picture{
+  position:fixed;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  width: 60px;
+  height: 60px;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 4px 0px 0px 4px;
+  opacity: 1;
+}
+
+.product-name{
+  position: fixed;
+  margin-top: 0.7rem;
+  margin-left: 4rem;
+  width: 106px;
+  height: 20px;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #000000DE;
+  opacity: 1;
+
+
+
+}
+.prod-desc{
+  position:fixed;
+  margin-top: 1.5rem;
+  margin-left: 4rem;
+  width: 151px;
+  height: 17px;
+  text-align: left;
+  font-family: 'Source Sans Pro';
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.22px;
+  color: #00000099;
+  opacity: 1;
+
+
+
+}
+.product-price{
+  float:left;
+  width: 64px;
+}
+
+.product-quantity{
+  float: right;
+  width: 67px;
 }
